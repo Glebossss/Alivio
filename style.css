@@ -1,0 +1,388 @@
+@font-face {
+    font-family: 'Georgia';
+    src: url('Georgia-Bold.eot');
+    src: local('Georgia Bold'), local('Georgia-Bold'),
+        url('Georgia-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Georgia-Bold.woff2') format('woff2'),
+        url('Georgia-Bold.woff') format('woff'),
+        url('Georgia-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Avenir';
+    src: url('Avenir-Roman.eot');
+    src: local('Avenir Roman'), local('Avenir-Roman'),
+        url('Avenir-Roman.eot?#iefix') format('embedded-opentype'),
+        url('Avenir-Roman.woff2') format('woff2'),
+        url('Avenir-Roman.woff') format('woff'),
+        url('Avenir-Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.menu{
+    background-color: white;
+    margin: 0 auto;
+    width: 100%;
+    height: 85px;
+    position: relative;
+    padding: 0 5px;
+}
+.logo,
+.links{
+    display: inline-block;
+    vertical-align: middle;
+}
+.logo{
+    position:absolute;
+    left: 275px;
+    top: 30px;
+    width: 80px;
+    height: 23px;
+}
+.links{
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 527px;
+    margin-top: 32px;
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 70px;
+}
+.t{
+    text-decoration: none;
+    color:black;
+    padding:20px;
+}
+.t:hover{
+	color:blue;
+}
+.t:active{
+	color:yellow;
+}
+.right-nav{
+    font-family: Lato, sans-serif;
+    color:black;
+    position: absolute;
+    top: 32px;
+    left: 1367px;
+    font-size: 20px;
+    line-height: 24px;
+}
+.button{
+    left:120px;
+    bottom:8px;
+    top:-14px;
+    position:absolute;
+    background-color:rgb(1, 153, 109);
+    width:200px;
+    height:50px;
+    font-size:20px;
+    color:white;
+    border-radius:4px;
+    border:none;
+}
+.button:active{
+    background-color:yellow;
+}
+.Second{
+    background-image: url("BG.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 895px;
+    margin-top:17px;
+}
+.Beaware{
+    width:440px;
+    height:895px;
+    position:absolute;
+    left:275px;
+    top:250px;
+    font-size:30px;
+    font-family: Georgia;
+    color:rgb(1, 153, 109);
+    line-height:74px;
+}
+.everyone{
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-size:20px;
+    width:430px;
+    color:black;
+    line-height:30px;
+    margin-top:60px;
+}
+.button2{
+    position:absolute;
+    background-color:rgb(1, 153, 109);
+    font-size:20px;
+    color:white;
+    width:227px;
+    height:65px;
+    margin-top:60px;
+    border-radius:4px;
+    border:none;
+}
+.button2:active{
+    background-color:yellow;
+}
+.Third{
+    width:1413px;
+    height:1175px;
+    position:absolute;
+    top:1162px;
+}
+.und{
+    color:rgb(1,153,109);
+    font-size:50px;
+    font-family: Georgia;
+    width:584px;
+    margin-top:20px;
+    margin-left:275px;
+}
+.how{
+    font-family:Lato, sans-serif;
+    font-size:20px;
+    margin-left:275px;
+}
+.right-text{
+    position:absolute;
+    left:995px;
+    top:50px;
+    font-size:20px;
+    width:600px;
+}
+.main{
+    position:absolute;
+    top:200px;
+    left:275px;
+}
+.one{
+    color:rgb(1,153,109);
+    font-size:150px;
+    opacity:20%;
+    font-family:Georgia;
+}
+.pers{
+    font-family: Georgia;
+    font-size:30px;
+    position:absolute;
+    top:110px;
+    left:110px;
+    width:500px;
+}
+.answer{
+    font-family: Lato, sans-serif;
+    font-size:20px;
+    position:absolute;
+    top:210px;
+    width:382px;
+}
+.k{
+    font-family: Lato, sans-serif;
+    font-size:20px;
+    position:absolute;
+    top:210px;
+    width:430px;
+}
+.omg{
+    position:absolute;
+    top:360px;
+}
+.Write{
+    position:absolute;
+    left:485px;
+    top:0px;
+}
+.Aliv{
+    position:absolute;
+    top:0px;
+    left:972px;
+}
+.Fourth{
+    background-color: #245852;
+    position:absolute;
+    width:100%;
+    height:922px;
+    top:2500px;
+}
+.kayla{
+    font-family: Georgia;
+    font-size:50px;
+    color:white;
+    width:600px;
+    position:absolute;
+    top:310px;
+    left:207px;
+}
+.cust{
+    font-family: Lato, sans-serif;
+    font-size:25px;
+    color:white;
+    position:absolute;
+    top:501px;
+    left:207px;
+}
+.button3{
+    position:absolute;
+    background-color:rgb(1, 153, 109);
+    font-size:20px;
+    color:white;
+    width:240px;
+    height:65px;
+    margin-top:597px;
+    margin-left:207px;
+    border-radius:4px;
+    border:none;   
+}
+.button3:active{
+    background-color:yellow;
+}
+.vid{
+    position:absolute;
+    top:229px;
+    left:818px;
+}
+.Fifth{
+    width:1370px;
+    height:648px;
+    position:absolute;
+    top:3600px;
+    left:275px;
+}
+.woman{
+    position:absolute;
+    left:75px;
+}
+.card{
+    position:absolute;
+    left:0px;
+    top:330px;
+}
+.left-five{
+    position:absolute;
+    left:800px;
+    top:0px;
+}
+.our{
+    font-family: Lato, sans-serif;
+    font-size:25px;
+}
+.stress{
+    font-family: Georgia;
+    font-size:50px;
+    color:rgb(1, 153, 109);
+    width:584px;
+    line-height: 78px;
+    margin-bottom:20px;
+}
+.exp{
+    font-family: Lato, sans-serif;
+    font-size:20px;
+    width:584px;
+    line-height: 31px;
+}
+.button4{
+    background-color:rgb(1, 153, 109);
+    font-size:20px;
+    color:white;
+    width:227px;
+    height:65px;
+    margin-top:40px;
+    border-radius:4px;
+    border:none;
+}
+.button4:active{
+    background-color:yellow;
+}
+.Last{
+    background-color: #245852;
+    width:100%;
+    height:654px;
+    position:absolute;
+    top:4400px;
+}
+.Contacts{
+    position:absolute;
+    top:95px;
+    left:275px;
+}
+.bot{
+    position:absolute;
+    top:60px;
+    width:200px;
+    line-height:60px;
+    color:white;
+}
+.b{
+    text-decoration:none;
+    margin-top:60px;
+    color:white;
+    font-size:25px;
+    font-family: Lato, sans-serif;
+}
+.b:hover{
+	color:blue;
+}
+.b:active{
+	color:yellow;
+}
+.j{
+    font-family: Avenir;
+    font-size:40px;
+    color:white;
+    position:absolute;
+}
+.Card{
+    background-color: white;
+    width:297px;
+    height:294px;
+    position: relative;
+    box-shadow: 0px 0px 2px 2px rgba(114, 114, 114, 0.137);
+    top:354px;
+    right:40px;
+    border-radius:4px;
+    padding:15px;
+}
+.line{
+    position: absolute;
+    left:92px;
+    top:54px;
+}
+.ava{
+    position: absolute;
+    left:120px;
+    top:67px;
+}
+.Mik{
+    position: absolute;
+    left:121px;
+    top:135px;
+}
+.zag1, .zag2, .si{
+    font-family: Lato, sans-serif;
+    position: absolute;
+}
+.zag1{
+    font-size:15px;
+    top:23px;
+    left:93px;
+}
+.zag2{
+    font-size:16px;
+    left:61px;
+    top:174px;
+}
+.si{
+    left:61px;
+    top:205px;
+    line-height:36px;
+    font-size:13px;
+}
